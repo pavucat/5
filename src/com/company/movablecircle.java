@@ -16,19 +16,19 @@ public class movablecircle implements Movable{
 
     public void moveup()
     {
-        center.y++;
+        center.y+=center.yspeed;
     };
     public void movedown()
     {
-        center.y--;
+        center.y-=center.yspeed;
     }
     public void left()
     {
-        center.x--;
+        center.x-=center.xspeed;
     }
     public void right()
     {
-        center.x++;
+        center.x+=center.xspeed;
     }
 
     @Override
